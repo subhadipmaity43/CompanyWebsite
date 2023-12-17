@@ -75,7 +75,7 @@ function Blogmain() {
                 </div>
                 <div className="author-info-heading">
                   {" "}
-                  <h2>{item.first_name}</h2>
+                  <h2 style={{ overflow: "hidden" }}>{item.first_name}</h2>
                 </div>
                 <div className="blog-short-description">
                   <p>

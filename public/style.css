@@ -208,7 +208,7 @@ body {
 /*********************************sidenav start*******************************/
 .burger-icon-svg {
   position: absolute;
-  left: 90%;
+  left: 87%;
   border: 1px solid #0d1e67;
 }
 .burger-icon-svg :hover {
@@ -1961,7 +1961,7 @@ div span p {
   padding-left: "18px";
 }
 /***************************compliance end********************************/
-@media (310px <= width <= 430px) {
+@media (300px <= width <= 430px) {
   .side-navbar-contents {
     display: block;
   }
@@ -1995,7 +1995,7 @@ div span p {
   }
   .dezian-head {
     top: 20%;
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .dezian-subhead {
     font-size: 1rem;
@@ -2011,7 +2011,7 @@ div span p {
   .circit-img {
     position: absolute;
     left: 20%;
-    top: 60%;
+    top: 55%;
   }
   .circit-img img {
     width: 350px;

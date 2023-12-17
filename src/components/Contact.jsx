@@ -34,7 +34,7 @@ function Contact() {
               >
                 <div className="screen-reader-response"></div>
                 <form
-                  action="https://formspree.io/f/xbjvnjkv"
+                  action="https://formspree.io/f/mzbnpdjl"
                   method="post"
                   className="wpcf7-form"
                   id="contact-form"
@@ -46,7 +46,7 @@ function Contact() {
                       <span className="wpcf7-form-control-wrap first-name">
                         <input
                           type="text"
-                          name="first-name"
+                          name="First Name"
                           size="40"
                           className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                           aria-required="true"
@@ -59,7 +59,7 @@ function Contact() {
                       <span className="wpcf7-form-control-wrap last-name">
                         <input
                           type="text"
-                          name="last-name"
+                          name="Last Name"
                           size="40"
                           className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                           aria-required="true"
@@ -72,7 +72,7 @@ function Contact() {
                       <span className="wpcf7-form-control-wrap your-email">
                         <input
                           type="email"
-                          name="your-email"
+                          name="Email Id"
                           size="40"
                           className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                           aria-required="true"
@@ -85,7 +85,7 @@ function Contact() {
                       <span className="wpcf7-form-control-wrap tel-554">
                         <input
                           type="tel"
-                          name="Your-tel"
+                          name="Phone No."
                           size="40"
                           className="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                           aria-invalid="false"
@@ -98,7 +98,7 @@ function Contact() {
                         {" "}
                         <span className="wpcf7-form-control-wrap your-message">
                           <textarea
-                            name="your-message"
+                            name="Message"
                             cols="40"
                             rows="10"
                             className="wpcf7-form-control wpcf7-textarea"

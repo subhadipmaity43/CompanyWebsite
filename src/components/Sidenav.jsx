@@ -25,8 +25,8 @@ function Sidenav() {
         >
           <svg
             className="burger-icon-svg"
-            width="35"
-            height="35"
+            width="50"
+            height="60"
             viewBox="0 0 100 100"
           >
             <path
