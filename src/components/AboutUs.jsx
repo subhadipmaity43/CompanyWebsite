@@ -6,20 +6,20 @@ function AboutUs() {
       <section>
         <img
           src="/Images/shape1.png"
-          class="img-fluid shape-right"
+          className="img-fluid shape-right"
           alt="QLOUD"
         ></img>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-sm-12 mb-lg-0 mb-5">
-              <img src="/Images/01.png" class="img-fluid" alt="qloud"></img>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-12 mb-lg-0 mb-5">
+              <img src="/Images/01.png" className="img-fluid" alt="qloud"></img>
             </div>
-            <div class="col-lg-6 col-sm-12 ">
-              <div class="iq-title-box iq-title-default iq-title-box-2">
-                <div class="iq-title-icon"></div>
-                <span class="iq-subtitle">About Us</span>
-                <h2 class="iq-title">We lead and support our clients’s.</h2>
-                <p class="iq-title-desc">
+            <div className="col-lg-6 col-sm-12 ">
+              <div className="iq-title-box iq-title-default iq-title-box-2">
+                <div className="iq-title-icon"></div>
+                <span className="iq-subtitle about-get-in-touch">About Us</span>
+                <h2 className="iq-title">We lead and support our clients’s.</h2>
+                <p className="iq-title-desc">
                   <span style={{ color: "#007bfc", fontWeight: "500" }}>
                     DataLuminous{" "}
                   </span>
@@ -34,31 +34,31 @@ function AboutUs() {
                   scalable and cost effective system.
                 </p>
               </div>
-              <div class="iq-list  iq-two-column">
-                <ul class="iq-list-with-icon">
+              <div className="iq-list  iq-two-column">
+                <ul className="iq-list-with-icon">
                   <li>
-                    <i class="fa-solid fa-check social"></i>Boost SEO ranking
+                    <i className="fa-solid fa-check social"></i>Application
                   </li>
 
                   <li>
-                    <i class="fa-solid fa-check social"></i> Social Sharing
+                    <i className="fa-solid fa-check social"></i> Data Engineer
                   </li>
 
                   <li>
-                    <i class="fa-solid fa-check social"></i>Marketing
+                    <i className="fa-solid fa-check social"></i>Data Analytics
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <i class="fa-solid fa-check social"></i>Retention
+                    <i className="fa-solid fa-check social"></i>DevSecOps
                   </li>
 
                   <li>
-                    <i class="fa-solid fa-check social"></i> Visual Reviews
+                    <i className="fa-solid fa-check social"></i> Cloud Security
                   </li>
-
                   <li>
-                    <i class="fa-solid fa-check social"></i> Reviews Generation
+                    <i className="fa-solid fa-check social"></i> Data
+                    Modernization
                   </li>
                 </ul>
               </div>

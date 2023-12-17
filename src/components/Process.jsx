@@ -1,107 +1,119 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Process() {
   return (
     <>
       <section
-        class="pt-0 iq-pb-70"
+        className="pt-0 iq-pb-70"
         // style={{ background: "#EDF1FF" }}
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 mb-lg-0 mb-5 align-self-center">
-              <div class="iq-title-box iq-title-default iq-title-box-2">
-                <div class="iq-title-icon"></div>
-                <span class="iq-subtitle">What We Do?</span>
-                <h2 class="iq-title">
-                  We lead and support our customer’s cloud
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-12 col-sm-12 mb-lg-0 mb-5 align-self-center">
+              <div className="iq-title-box iq-title-default iq-title-box-2">
+                <div className="iq-title-icon"></div>
+                <span className="iq-subtitle process-get-in-touch">
+                  What We Do?
+                </span>
+                <h2 className="iq-title">
+                  We deliver consistently high quality professional services{" "}
+                  <br />
+                  to our customers.
                 </h2>
-                <p class="iq-title-desc">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has.
+                <p className="iq-title-desc">
+                  We are offering end-to-end practice management, security,
+                  cloud consulting and support. Our certified, expert and
+                  experienced engineers help you to build a scalable, fault
+                  tolerant, highly available & cost effective solutions for your
+                  sepecific business needs which will help to serve your
+                  customers better.
+                  <br />
+                  Working with DataLuminous ensures that your business remains
+                  functional, secure and adoptable with the changes of
+                  organization’s needs.
                 </p>
               </div>
-              <div class="iq-btn-container mt-4">
-                <a class="iq-button " href="/">
+              <div className="iq-btn-container mt-4">
+                <Link className="iq-button " to="/">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="iq-process iq-process-step-style-1 ">
-                    <div class="iq-process-step">
-                      <div class="iq-step-content">
+            <div className="col-lg-6 col-md-12 col-sm-12">
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="iq-process iq-process-step-style-1 ">
+                    <div className="iq-process-step">
+                      <div className="iq-step-content">
                         <img
-                          class="hover-img img-fluid"
-                          src="/Images/01 (1).png"
+                          className="hover-img img-fluid"
+                          src="/Images/cloud.webp"
                           alt="fancybox"
                         ></img>{" "}
                       </div>
-                      <div class="iq-step-text-area">
-                        <h4 class="iq-step-title">Marketing</h4>
-                        <span class="iq-step-desc">
-                          There are many variations of passages of readable
-                          content page looking
+                      <div className="iq-step-text-area">
+                        <h4 className="iq-step-title">Multi Cloud Expertise</h4>
+                        <span className="iq-step-desc">
+                          There are many variations Multi Cloud Expertise Like -
+                          AWS, GCP
                         </span>
                       </div>
                     </div>
                   </div>
-                  <div class="iq-process iq-process-step-style-1 ">
-                    <div class="iq-process-step">
-                      <div class="iq-step-content">
+                  <div className="iq-process iq-process-step-style-1 ">
+                    <div className="iq-process-step">
+                      <div className="iq-step-content">
                         <img
-                          class="hover-img img-fluid"
-                          src="/Images/03.png"
+                          className="hover-img img-fluid"
+                          src="/Images/SAAS.webp"
                           alt="fancybox"
                         ></img>{" "}
                       </div>
-                      <div class="iq-step-text-area">
-                        <h4 class="iq-step-title">Social Services</h4>
-
-                        <span class="iq-step-desc">
-                          There are many variations of passages of readable
-                          content page looking
+                      <div className="iq-step-text-area">
+                        <h4 className="iq-step-title">SaaS platforms</h4>
+                        <span className="iq-step-desc">
+                          Expertise on SaaS platforms like Databricks, MongoDB
+                          etc.
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="iq-process iq-process-step-style-1 ">
-                    <div class="iq-process-step">
-                      <div class="iq-step-content">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="iq-process iq-process-step-style-1 ">
+                    <div className="iq-process-step">
+                      <div className="iq-step-content">
                         <img
-                          class="hover-img img-fluid"
-                          src="/Images/02.png"
+                          className="hover-img img-fluid"
+                          src="/Images/openSource.webp"
                           alt="fancybox"
                         ></img>{" "}
                       </div>
-                      <div class="iq-step-text-area">
-                        <h4 class="iq-step-title">Clean Design</h4>
-                        <span class="iq-step-desc">
-                          There are many variations of passages of readable
-                          content page looking
+                      <div className="iq-step-text-area">
+                        <h4 className="iq-step-title">Open Source Software</h4>
+
+                        <span className="iq-step-desc">
+                          Expertise in Open Source Software, tools etc.
                         </span>
                       </div>
                     </div>
                   </div>
-                  <div class="iq-process iq-process-step-style-1 ">
-                    <div class="iq-process-step">
-                      <div class="iq-step-content">
+
+                  <div className="iq-process iq-process-step-style-1 ">
+                    <div className="iq-process-step">
+                      <div className="iq-step-content">
                         <img
-                          class="hover-img img-fluid"
-                          src="/Images/04.png"
+                          className="hover-img img-fluid"
+                          src="/Images/certified.png"
                           alt="fancybox"
                         ></img>{" "}
                       </div>
-                      <div class="iq-step-text-area">
-                        <h4 class="iq-step-title">Creative Ideas</h4>
-                        <span class="iq-step-desc">
-                          There are many variations of passages of readable
-                          content page looking
+                      <div className="iq-step-text-area">
+                        <h4 className="iq-step-title">Certified Experts</h4>
+                        <span className="iq-step-desc">
+                          Professional Certified Experts and experienced
+                          engineers.
                         </span>
                       </div>
                     </div>

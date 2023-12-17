@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -25,13 +26,22 @@ function Navbar() {
           <div className="left-img col">
             <img src="/Images/rrr.png" alt="" />
             <span className="logo">
-              Data <span style={{ color: "#007bfc" }}>Luminous</span>
+              Data<span style={{ color: "#007bfc" }}>Luminous</span>
             </span>
           </div>
           <div className="right-section col-6">
             <ul>
-              <li>Home</li>
-              <li>About us</li>
+              <li>
+                <Link to="/" className="nav-menu">
+                  {" "}
+                  Home{" "}
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="nav-menu">
+                  About us{" "}
+                </Link>
+              </li>
               <li className="our-service-dropdown">
                 Our Services{" "}
                 <span
@@ -40,29 +50,36 @@ function Navbar() {
                     paddingTop: "4px",
                   }}
                 >
-                  <i class="fa-solid fa-angle-down"></i>
+                  <i className="fa-solid fa-angle-down"></i>
                 </span>
                 <div className="drop-downcontainer">
                   <div className="drop-down-info">
-                    <a href="/"> Devescops</a>
-                    <a href="/">Data Engineering</a>
-                    <a href="/">Kubernets</a>
-                    <a href="/">Security</a>
+                    <Link to="/devsecops"> Devescops</Link>
+                    <Link to="/dataEngineering">Data Engineering</Link>
+                    <Link to="/Kubernetes">Kubernets</Link>
+                    <Link to="/security">Security</Link>
                   </div>
                 </div>
               </li>
-              <li>Career </li>
-              <li>Contact Us</li>
+              <li>
+                <Link to="/career" className="nav-menu">
+                  {" "}
+                  Career
+                </Link>{" "}
+              </li>
+              <li>
+                <Link to="/blog" className="nav-menu">
+                  {" "}
+                  Blog
+                </Link>{" "}
+              </li>
+              <li>
+                <Link to="/contact" className="nav-menu">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
-          {/* <div className="login-button col-4">
-            <button type="button" class="btn btn-outline-primary">
-              Login
-            </button>
-            <button class="btn btn-primary submit-button" type="submit">
-              Register
-            </button>
-          </div> */}
         </div>
       </div>
     </>

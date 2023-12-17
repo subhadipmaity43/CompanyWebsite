@@ -26,11 +26,11 @@ function Hero() {
 
         <div className="left-section-information">
           <h1 className="dezian-head">
-            Data <span style={{ color: "#007bfc" }}>Luminus</span>{" "}
+            Data<span style={{ color: "#007bfc" }}>Luminous</span>{" "}
           </h1>
           <h3 className="dezian-subhead">
-            Empowering the organizations with the power
-            <br /> of data
+            Empowering the organizations with the <br />
+            power of data
           </h3>
           <button className="btnhero">Get In Touch</button>
         </div>
