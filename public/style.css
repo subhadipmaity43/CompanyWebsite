@@ -2117,6 +2117,7 @@ div span p {
     margin-bottom: 10px;
   }
   .footer-title {
+    height: 20px;
     text-align: center;
     font-size: 1rem;
   }
