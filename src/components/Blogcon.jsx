@@ -75,7 +75,9 @@ function Blogcon() {
             <div className="blog-pp-container">
               <div className="heading-of-blog">
                 {" "}
-                <h1>{userData?.user?.first_name}</h1>
+                <h1 style={{ overflow: "hidden" }}>
+                  {userData?.user?.first_name}
+                </h1>
               </div>
               <div className="full-blog-info-img">
                 <img
@@ -86,7 +88,7 @@ function Blogcon() {
                 />
               </div>
               <div className="writer-info">
-                <h4>{userData?.user?.state}</h4>
+                <h4 className="overflow">{userData?.user?.state}</h4>
                 <p> {userData?.user?.date_of_birth}</p>
                 <p>{userData?.user?.phone}</p>
               </div>
