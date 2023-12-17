@@ -52,6 +52,7 @@ function Blogcon() {
                                 style={{
                                   paddingRight: "5px",
                                   fontSize: "13px",
+                                  overflow: "hidden",
                                 }}
                               ></i>
                               <span style={{ fontSize: "17px" }}>Home</span>

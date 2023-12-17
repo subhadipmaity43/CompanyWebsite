@@ -23,7 +23,11 @@ function AboutBreadcrumb() {
                         <Link to="/">
                           <i
                             class="fa fa-home mr-2 "
-                            style={{ paddingRight: "5px", overflow: "hidden" }}
+                            style={{
+                              paddingRight: "5px",
+                              fontSize: "13px",
+                              overflow: "hidden",
+                            }}
                           ></i>
                           <span style={{ fontSize: "17px" }}>Home</span>
                         </Link>

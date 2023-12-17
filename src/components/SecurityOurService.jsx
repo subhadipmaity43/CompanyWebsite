@@ -29,7 +29,11 @@ function SecurityOurService() {
                         <Link to="/">
                           <i
                             class="fa fa-home mr-2"
-                            style={{ paddingRight: "5px", fontSize: "13px" }}
+                            style={{
+                              paddingRight: "5px",
+                              fontSize: "13px",
+                              overflow: "hidden",
+                            }}
                           ></i>
                           <span style={{ fontSize: "16px" }}>Home</span>
                         </Link>
