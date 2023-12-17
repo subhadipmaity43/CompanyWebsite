@@ -211,6 +211,9 @@ body {
   left: 87%;
   border: 1px solid #0d1e67;
 }
+.side-nav-main-container {
+  display: none;
+}
 .burger-icon-svg :hover {
   border: none;
   background-color: rgb(54, 57, 61);
@@ -391,6 +394,9 @@ label {
 
 .outer:hover .inner:after {
   bottom: 0;
+}
+.overflow {
+  overflow: hidden;
 }
 /*********************************sidenav end*******************************/
 
@@ -2207,5 +2213,8 @@ div span p {
   }
   footer .social-icones {
     text-align: center;
+  }
+  .side-nav-main-container {
+    display: block;
   }
 }
