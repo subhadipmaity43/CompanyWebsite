@@ -1961,7 +1961,7 @@ div span p {
   padding-left: "18px";
 }
 /***************************compliance end********************************/
-@media (300px <= width <= 430px) {
+@media (300px <= width <= 450px) {
   .side-navbar-contents {
     display: block;
   }
