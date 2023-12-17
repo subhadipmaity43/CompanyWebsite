@@ -78,171 +78,179 @@ function Data() {
                   alt="qloud"
                 ></img>
               </div>
-            </div>
-            <div className="iq-title-box iq-title-default iq-title-box-2  ">
-              <h2 className="iq-title " style={{ textAlign: "center" }}>
-                What are the Benefits of DevSecOps Model
-              </h2>
-            </div>
-            <div class="et_pb_row et_pb_row_2 et_pb_equal_columns et_pb_gutters2 et_pb_row_5col">
-              <div class="et_pb_column et_pb_column_1_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
-                <div
-                  class="et_pb_module et_pb_blurb et_pb_blurb_0 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
-                  style={{}}
-                >
-                  <div class="et_pb_blurb_content">
-                    <div class="et_pb_main_blurb_image">
-                      <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
-                        <img
-                          decoding="async"
-                          width="300"
-                          height="300"
-                          src="/Images/data1.png"
-                          alt=""
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-85 et-animated"
-                        />
-                      </span>
-                    </div>
-                    <div class="et_pb_blurb_container">
-                      <div class="et_pb_blurb_description">
-                        <p>
-                          <span>
-                            Reviewing your current data architecture to analyze
-                            data sources and define data lakes or DWHs
-                          </span>
-                        </p>
+            </div>{" "}
+          </div>
+          <div
+            className="kub"
+            style={{ background: "#EEF1FF", padding: "70px 0px" }}
+          >
+            <div className="container">
+              <div className="iq-title-box iq-title-default iq-title-box-2  ">
+                <h2 className="iq-title " style={{ textAlign: "center" }}>
+                  What are the Benefits of DevSecOps Model
+                </h2>
+              </div>
+
+              <div class="et_pb_row et_pb_row_2 et_pb_equal_columns et_pb_gutters2 et_pb_row_5col">
+                <div class="et_pb_column et_pb_column_1_5 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough">
+                  <div
+                    class="et_pb_module et_pb_blurb et_pb_blurb_0 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
+                    style={{}}
+                  >
+                    <div class="et_pb_blurb_content">
+                      <div class="et_pb_main_blurb_image">
+                        <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
+                          <img
+                            decoding="async"
+                            width="300"
+                            height="300"
+                            src="/Images/data1.png"
+                            alt=""
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-85 et-animated"
+                          />
+                        </span>
+                      </div>
+                      <div class="et_pb_blurb_container">
+                        <div class="et_pb_blurb_description">
+                          <p>
+                            <span>
+                              Reviewing your current data architecture to
+                              analyze data sources and define data lakes or DWHs
+                            </span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="et_pb_column et_pb_column_1_5 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
-                <div
-                  class="et_pb_module et_pb_blurb et_pb_blurb_1 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
-                  style={{}}
-                >
-                  <div class="et_pb_blurb_content">
-                    <div class="et_pb_main_blurb_image">
-                      <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
-                        <img
-                          decoding="async"
-                          width="300"
-                          height="300"
-                          src="/Images/data2.png"
-                          alt=""
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-87 et-animated"
-                        />
-                      </span>
-                    </div>
-                    <div class="et_pb_blurb_container">
-                      <div class="et_pb_blurb_description">
-                        <p>
-                          <span>
-                            Cleaning, processing, and transforming data into
-                            usable formats for model development
-                          </span>
-                        </p>
+                <div class="et_pb_column et_pb_column_1_5 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
+                  <div
+                    class="et_pb_module et_pb_blurb et_pb_blurb_1 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
+                    style={{}}
+                  >
+                    <div class="et_pb_blurb_content">
+                      <div class="et_pb_main_blurb_image">
+                        <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
+                          <img
+                            decoding="async"
+                            width="300"
+                            height="300"
+                            src="/Images/data2.png"
+                            alt=""
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-87 et-animated"
+                          />
+                        </span>
+                      </div>
+                      <div class="et_pb_blurb_container">
+                        <div class="et_pb_blurb_description">
+                          <p>
+                            <span>
+                              Cleaning, processing, and transforming data into
+                              usable formats for model development
+                            </span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="et_pb_column et_pb_column_1_5 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough">
-                <div
-                  class="et_pb_module et_pb_blurb et_pb_blurb_2 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
-                  style={{}}
-                >
-                  <div class="et_pb_blurb_content">
-                    <div class="et_pb_main_blurb_image">
-                      <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
-                        <img
-                          decoding="async"
-                          width="300"
-                          height="300"
-                          src="/Images/data3.png"
-                          alt=""
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-88 et-animated"
-                        />
-                      </span>
-                    </div>
-                    <div class="et_pb_blurb_container">
-                      <div class="et_pb_blurb_description">
-                        <p>
-                          <span>
-                            Building data pipelines that gather, process, store,
-                            and help access data
-                          </span>
-                        </p>
+                <div class="et_pb_column et_pb_column_1_5 et_pb_column_5  et_pb_css_mix_blend_mode_passthrough">
+                  <div
+                    class="et_pb_module et_pb_blurb et_pb_blurb_2 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
+                    style={{}}
+                  >
+                    <div class="et_pb_blurb_content">
+                      <div class="et_pb_main_blurb_image">
+                        <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
+                          <img
+                            decoding="async"
+                            width="300"
+                            height="300"
+                            src="/Images/data3.png"
+                            alt=""
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-88 et-animated"
+                          />
+                        </span>
+                      </div>
+                      <div class="et_pb_blurb_container">
+                        <div class="et_pb_blurb_description">
+                          <p>
+                            <span>
+                              Building data pipelines that gather, process,
+                              store, and help access data
+                            </span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="et_pb_column et_pb_column_1_5 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough">
-                <div
-                  class="et_pb_module et_pb_blurb et_pb_blurb_3 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
-                  style={{}}
-                >
-                  <div class="et_pb_blurb_content">
-                    <div class="et_pb_main_blurb_image">
-                      <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
-                        <img
-                          decoding="async"
-                          width="300"
-                          height="300"
-                          src="/Images/data4.png"
-                          alt=""
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-90 et-animated"
-                        />
-                      </span>
-                    </div>
-                    <div class="et_pb_blurb_container">
-                      <div class="et_pb_blurb_description">
-                        <p>
-                          <span>
-                            Consult on selecting the best fitting open source or
-                            proprietary big data analytics tools and products
-                            for your project
-                          </span>
-                        </p>
+                <div class="et_pb_column et_pb_column_1_5 et_pb_column_6  et_pb_css_mix_blend_mode_passthrough">
+                  <div
+                    class="et_pb_module et_pb_blurb et_pb_blurb_3 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
+                    style={{}}
+                  >
+                    <div class="et_pb_blurb_content">
+                      <div class="et_pb_main_blurb_image">
+                        <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
+                          <img
+                            decoding="async"
+                            width="300"
+                            height="300"
+                            src="/Images/data4.png"
+                            alt=""
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-90 et-animated"
+                          />
+                        </span>
+                      </div>
+                      <div class="et_pb_blurb_container">
+                        <div class="et_pb_blurb_description">
+                          <p>
+                            <span>
+                              Consult on selecting the best fitting open source
+                              or proprietary big data analytics tools and
+                              products for your project
+                            </span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="et_pb_column et_pb_column_1_5 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
-                <div
-                  class="et_pb_module et_pb_blurb et_pb_blurb_4 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
-                  style={{}}
-                >
-                  <div class="et_pb_blurb_content">
-                    <div class="et_pb_main_blurb_image">
-                      <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
-                        <img
-                          decoding="async"
-                          width="300"
-                          height="300"
-                          src="/Images/data5.png"
-                          alt=""
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-91 et-animated"
-                        />
-                      </span>
-                    </div>
-                    <div class="et_pb_blurb_container">
-                      <div class="et_pb_blurb_description">
-                        <p>
-                          <span>
-                            Helping choose among big data platforms for managing
-                            your data infrastructures, such as Databricks,
-                            DataStax, Snowflake, ScyllaDB, AWS, Microsoft Azure,
-                            Google BigQuery
-                          </span>
-                        </p>
+                <div class="et_pb_column et_pb_column_1_5 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                  <div
+                    class="et_pb_module et_pb_blurb et_pb_blurb_4 et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_had_animation"
+                    style={{}}
+                  >
+                    <div class="et_pb_blurb_content">
+                      <div class="et_pb_main_blurb_image">
+                        <span class="et_pb_image_wrap et_pb_only_image_mode_wrap">
+                          <img
+                            decoding="async"
+                            width="300"
+                            height="300"
+                            src="/Images/data5.png"
+                            alt=""
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-91 et-animated"
+                          />
+                        </span>
+                      </div>
+                      <div class="et_pb_blurb_container">
+                        <div class="et_pb_blurb_description">
+                          <p>
+                            <span>
+                              Helping choose among big data platforms for
+                              managing your data infrastructures, such as
+                              Databricks, DataStax, Snowflake, ScyllaDB, AWS,
+                              Microsoft Azure, Google BigQuery
+                            </span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>

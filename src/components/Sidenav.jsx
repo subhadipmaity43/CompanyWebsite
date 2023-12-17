@@ -64,7 +64,7 @@ function Sidenav() {
               </div>{" "}
             </li>
           </ul>
-          <ul>
+          <ul style={{ overflow: "hidden" }}>
             <li>
               <i class="fa-solid fa-house-chimney"></i>
               <Link to="/" className="nav-menu">

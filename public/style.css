@@ -2110,7 +2110,7 @@ div span p {
     text-align: center;
   }
   img.shape-left {
-    top: 16%;
+    display: none;
   }
   footer .widget,
   footer .widget:last-child {
@@ -2128,13 +2128,13 @@ div span p {
   }
   .menu li {
     width: 50% !important;
-    padding-left: 50px;
+    padding-left: 30px;
   }
   footer .footer-top .widget ul.iq-contact {
     text-align: center;
   }
   .back-to-top {
-    bottom: 38px;
+    bottom: 62px;
     right: 14px;
   }
   .iq-breadcrumb-one {
@@ -2199,5 +2199,8 @@ div span p {
   }
   .fff {
     padding: 0px 15px 0px 0px;
+  }
+  footer .social-icones {
+    text-align: center;
   }
 }

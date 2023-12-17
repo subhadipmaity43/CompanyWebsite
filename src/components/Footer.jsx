@@ -146,7 +146,7 @@ function Footer() {
                 <div className="col-lg-6 col-md-12 text-lg-left text-md-center text-center">
                   <div className="social-icone">
                     <ul>
-                      <li className="d-inline">
+                      <li className="d-inline" style={{ overflow: "hidden" }}>
                         <Link to="/">
                           <i className="fa-brands fa-facebook-f icons"></i>
                         </Link>

@@ -114,7 +114,8 @@ function Devescops() {
                 </div>
               </div>
             </div>
-
+          </div>{" "}
+          <div className="container">
             <div className="iq-title-box iq-title-default iq-title-box-2  ">
               <h2 className="iq-title " style={{ textAlign: "center" }}>
                 What are the Benefits of DevSecOps Model
@@ -126,6 +127,13 @@ function Devescops() {
                   alt="qloud"
                 />
               </div>
+            </div>
+          </div>{" "}
+          <div
+            className="kub"
+            style={{ background: "#EEF1FF", padding: "70px 0px" }}
+          >
+            <div className="container">
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-md-12 mb-lg-0 mb-5">
                   <div className="iq-icon-box iq-icon-box-style-8  text-center wow fadeInUp Cloud1">
@@ -244,9 +252,9 @@ function Devescops() {
               </div>
             </div>
           </div>
+          \
         </section>
       </div>
-      {/* </div> */}
       <Footer />
     </>
   );
