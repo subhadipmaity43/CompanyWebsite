@@ -31,7 +31,7 @@ function ScrollToTop() {
         className={`back-to-top  ${animationClass}`}
         onClick={handleClick}
       >
-        <i className="fa fa-arrow-up"></i>
+        <i className="fa fa-arrow-up" style={{ height: "16px" }}></i>
       </button>
     )
     // </div>
