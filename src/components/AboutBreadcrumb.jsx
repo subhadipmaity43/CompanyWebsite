@@ -22,7 +22,7 @@ function AboutBreadcrumb() {
                       <li class="breadcrumb-item">
                         <Link to="/">
                           <i
-                            class="fa fa-home mr-2"
+                            class="fa fa-home mr-2 overflow"
                             style={{ paddingRight: "5px", fontSize: "13px" }}
                           ></i>
                           <span style={{ fontSize: "17px" }}>Home</span>

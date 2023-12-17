@@ -73,14 +73,14 @@ function Sidenav() {
               </Link>{" "}
             </li>
             <li>
-              <i class="fa-solid fa-address-card"></i>
+              <i class="fa-solid fa-address-card overflow"></i>
               <Link to="/about" className="nav-menu">
                 {" "}
                 About Us
               </Link>{" "}
             </li>
             <li onClick={handleClick2}>
-              <i class="fa-brands fa-servicestack"></i> Our Service
+              <i class="fa-brands fa-servicestack overflow"></i> Our Service
               <div className="for-selection">
                 <div
                   className={`class-for-radio ${
@@ -123,21 +123,21 @@ function Sidenav() {
               </div>
             </li>
             <li>
-              <i class="fa-solid fa-blog"></i>{" "}
+              <i class="fa-solid fa-blog overflow"></i>{" "}
               <Link to="/blog" className="nav-menu">
                 {" "}
                 Blog
               </Link>{" "}
             </li>
             <li>
-              <i class="fa-solid fa-people-group"></i>
+              <i class="fa-solid fa-people-group overflow"></i>
               <Link to="/career" className="nav-menu">
                 {" "}
                 Career
               </Link>{" "}
             </li>
             <li>
-              <i class="fa-solid fa-phone-volume"></i>{" "}
+              <i class="fa-solid fa-phone-volume overflow"></i>{" "}
               <Link to="/contact" className="nav-menu">
                 {" "}
                 Contact Us
