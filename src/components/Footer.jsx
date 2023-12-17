@@ -83,7 +83,11 @@ function Footer() {
                 <div className="widget">
                   <h4 className="footer-title ">Useful links</h4>
                   <div className="menu-link">
-                    <ul id="menu-link-menu" className="menu">
+                    <ul
+                      id="menu-link-menu"
+                      className="menu"
+                      style={{ overflow: "hidden" }}
+                    >
                       <li>
                         {" "}
                         <Link to="/">Our Team</Link>
@@ -146,7 +150,7 @@ function Footer() {
                 <div className="col-lg-6 col-md-12 text-lg-left text-md-center text-center">
                   <div className="social-icone">
                     <ul>
-                      <li className="d-inline" style={{ overflow: "hidden" }}>
+                      <li className="d-inline">
                         <Link to="/">
                           <i className="fa-brands fa-facebook-f icons"></i>
                         </Link>
