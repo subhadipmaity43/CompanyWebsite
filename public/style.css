@@ -2134,6 +2134,8 @@ div span p {
     text-align: center;
   }
   .back-to-top {
+    width: 50px;
+    height: 55px;
     bottom: 62px;
     right: 14px;
   }
